@@ -1,3 +1,13 @@
+# E-LEARNING-PLATFORM-UI
+COMPANY: CODTECH IT SOLUTIONS
+NAME: AMIT KUMAR
+INTERN ID: CT04WWL
+DOMAIN: FRONTEND WEB DEVELOPMENT
+DURATION: 4 WEEKS 
+MENTOR: NEELA SANTOSH
+***********************************************************************************************************************************************
+
+
 # screenshort
 ![home page](https://github.com/amits9155/E-LEARNING-PLATFORM-UI/blob/d3b81d590a0d3cdea17440fb805b2aa1f91e3d7f/images/screenshort/Screenshot%202025-03-30%20125546.png)
 
