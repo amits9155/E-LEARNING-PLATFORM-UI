@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Book shape -->
+    <path d="M40 10H15C12.2386 10 10 12.2386 10 15V35C10 37.7614 12.2386 40 15 40H40V15C40 12.2386 37.7614 10 35 10Z" fill="#4A90E2"/>
+    <path d="M40 15V40H15C12.2386 40 10 37.7614 10 35V15C10 12.2386 12.2386 10 15 10H35C37.7614 10 40 12.2386 40 15Z" stroke="#2171CD" stroke-width="2"/>
+    
+    <!-- Pages -->
+    <path d="M15 15H35M15 25H35M15 35H35" stroke="white" stroke-width="2"/>
+    
+    <!-- Text -->
+    <text x="55" y="32" font-family="Arial" font-size="24" font-weight="bold" fill="#333333">
+        EduLearn
+    </text>
+</svg> 

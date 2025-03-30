@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Video Player - EduLearn</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="video-player-page">
+    <!-- Header Section -->
+    <header class="video-header">
+        <div class="container">
+            <div class="logo">
+                <h1>EduLearn</h1>
+            </div>
+            <div class="course-title">
+                <h2>Complete Web Development Bootcamp</h2>
+            </div>
+            <div class="header-actions">
+                <a href="dashboard.html" class="btn btn-outline"><i class="fas fa-arrow-left"></i> Back to Dashboard</a>
+                <div class="user-profile">
+                    <div class="user-avatar">
+                        <img src="images/users/profile.jpg" alt="User Avatar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Video Player Main Content -->
+    <main class="video-content">
+        <div class="video-layout">
+            <!-- Video Sidebar -->
+            <div class="video-sidebar">
+                <div class="sidebar-header">
+                    <h3>Course Content</h3>
+                    <div class="progress-indicator">
+                        <span class="progress-text">65% Complete</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-sections-list">
+                    <!-- Section 1 -->
+                    <div class="course-section">
+                        <div class="section-header collapsed" data-section="1">
+                            <div class="section-title">
+                                <i class="fas fa-chevron-down section-icon"></i>
+                                <h4>Section 1: Introduction to Web Development</h4>
+                            </div>
+                            <div class="section-progress">
+                                <span>6/6</span>
+                            </div>
+                        </div>
+                        <div class="section-lectures">
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">Course Overview</span>
+                                    <span class="lecture-duration">5:30</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">How the Internet Works</span>
+                                    <span class="lecture-duration">10:15</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">Web Development Tools</span>
+                                    <span class="lecture-duration">8:45</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">Setting Up Your Development Environment</span>
+                                    <span class="lecture-duration">12:20</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">Course Resources and Downloads</span>
+                                    <span class="lecture-duration">3:10</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">Course Resources Zip File</span>
+                                    <span class="lecture-type">Resource</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 2 -->
+                    <div class="course-section">
+                        <div class="section-header expanded" data-section="2">
+                            <div class="section-title">
+                                <i class="fas fa-chevron-down section-icon"></i>
+                                <h4>Section 2: HTML Fundamentals</h4>
+                            </div>
+                            <div class="section-progress">
+                                <span>10/12</span>
+                            </div>
+                        </div>
+                        <div class="section-lectures show">
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">Introduction to HTML</span>
+                                    <span class="lecture-duration">8:45</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Document Structure</span>
+                                    <span class="lecture-duration">10:30</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Text Elements</span>
+                                    <span class="lecture-duration">11:15</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Lists</span>
+                                    <span class="lecture-duration">9:20</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Links</span>
+                                    <span class="lecture-duration">12:40</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Images</span>
+                                    <span class="lecture-duration">10:55</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Tables</span>
+                                    <span class="lecture-duration">14:25</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Forms Basics</span>
+                                    <span class="lecture-duration">15:10</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Form Elements</span>
+                                    <span class="lecture-duration">18:30</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item completed">
+                                <div class="lecture-status">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Form Validation</span>
+                                    <span class="lecture-duration">13:45</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item current">
+                                <div class="lecture-status">
+                                    <i class="fas fa-play-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Semantic Elements</span>
+                                    <span class="lecture-duration">16:20</span>
+                                </div>
+                            </div>
+                            <div class="lecture-item">
+                                <div class="lecture-status">
+                                    <i class="far fa-circle"></i>
+                                </div>
+                                <div class="lecture-details">
+                                    <span class="lecture-title">HTML Best Practices</span>
+                                    <span class="lecture-duration">12:15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 3 -->
+                    <div class="course-section">
+                        <div class="section-header collapsed" data-section="3">
+                            <div class="section-title">
+                                <i class="fas fa-chevron-down section-icon"></i>
+                                <h4>Section 3: CSS Styling</h4>
+                            </div>
+                            <div class="section-progress">
+                                <span>5/18</span>
+                            </div>
+                        </div>
+                        <div class="section-lectures">
+                            <!-- Lectures would be here -->
+                            <div class="lecture-preview">18 lectures • 2h 15m</div>
+                        </div>
+                    </div>
+
+                    <!-- More sections preview -->
+                    <div class="more-sections-preview">
+                        <span>12 more sections</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Main Content -->
+            <div class="video-main">
+                <!-- Video Player -->
+                <div class="video-player-container">
+                    <video id="main-video-player" controls poster="images/courses/html-semantic-preview.jpg">
+                        <source src="videos/html-semantic-elements.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-controls-overlay">
+                        <div class="video-title-bar">
+                            <h3>HTML Semantic Elements</h3>
+                            <div class="video-actions">
+                                <button class="action-btn" title="Add note"><i class="fas fa-sticky-note"></i></button>
+                                <button class="action-btn" title="Bookmark"><i class="far fa-bookmark"></i></button>
+                                <button class="action-btn" title="Download"><i class="fas fa-download"></i></button>
+                                <button class="action-btn" title="Settings"><i class="fas fa-cog"></i></button>
+                                <button class="action-btn fullscreen-btn" title="Fullscreen"><i class="fas fa-expand"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Tabs -->
+                <div class="content-tabs">
+                    <div class="tabs-header">
+                        <button class="tab-btn active" data-tab="overview">Overview</button>
+                        <button class="tab-btn" data-tab="notes">Notes</button>
+                        <button class="tab-btn" data-tab="resources">Resources</button>
+                        <button class="tab-btn" data-tab="transcript">Transcript</button>
+                        <button class="tab-btn" data-tab="discussion">Q&A</button>
+                    </div>
+                    <div class="tabs-content">
+                        <!-- Overview Tab -->
+                        <div class="tab-pane active" id="overview">
+                            <div class="lesson-overview">
+                                <h2>HTML Semantic Elements</h2>
+                                <p class="lesson-meta">
+                                    <span><i class="fas fa-clock"></i> 16:20 minutes</span>
+                                    <span><i class="fas fa-calendar-alt"></i> Updated: June 2023</span>
+                                </p>
+                                <div class="lesson-description">
+                                    <p>In this lecture, we'll dive into HTML semantic elements, which provide meaning to both the browser and developers about the content's purpose. Semantic elements make your code more readable, improve SEO, and enhance accessibility.</p>
+                                    <h3>What You'll Learn</h3>
+                                    <ul>
+                                        <li>The difference between semantic and non-semantic elements</li>
+                                        <li>Common semantic elements like &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;article&gt;, &lt;section&gt;, &lt;aside&gt;, and &lt;footer&gt;</li>
+                                        <li>How to structure a webpage using semantic HTML</li>
+                                        <li>SEO and accessibility benefits of semantic HTML</li>
+                                    </ul>
+                                    <h3>Additional Resources</h3>
+                                    <ul class="resources-list">
+                                        <li><a href="#"><i class="fas fa-file-code"></i> Semantic HTML Cheat Sheet</a></li>
+                                        <li><a href="#"><i class="fas fa-file-archive"></i> HTML Semantic Practice Exercise</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lesson-navigation">
+                                <a href="#" class="prev-lesson">
+                                    <i class="fas fa-arrow-left"></i>
+                                    <div class="nav-content">
+                                        <span class="nav-label">Previous Lesson</span>
+                                        <span class="nav-title">HTML Form Validation</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="complete-btn">
+                                    <i class="fas fa-check"></i> Mark as Complete
+                                </a>
+                                <a href="#" class="next-lesson">
+                                    <div class="nav-content">
+                                        <span class="nav-label">Next Lesson</span>
+                                        <span class="nav-title">HTML Best Practices</span>
+                                    </div>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Notes Tab -->
+                        <div class="tab-pane" id="notes">
+                            <div class="notes-container">
+                                <div class="notes-form">
+                                    <h3>Add a New Note</h3>
+                                    <div class="note-timestamp">
+                                        <span>Current timestamp: </span>
+                                        <span class="timestamp">03:45</span>
+                                    </div>
+                                    <textarea placeholder="Type your notes here..."></textarea>
+                                    <div class="form-actions">
+                                        <button class="btn btn-outline">Cancel</button>
+                                        <button class="btn btn-primary">Save Note</button>
+                                    </div>
+                                </div>
+                                <div class="notes-list">
+                                    <div class="note-item">
+                                        <div class="note-header">
+                                            <span class="note-timestamp">01:25</span>
+                                            <div class="note-actions">
+                                                <button class="note-action"><i class="fas fa-edit"></i></button>
+                                                <button class="note-action"><i class="fas fa-trash"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="note-content">
+                                            <p>Semantic elements = elements with meaning. They clearly describe their purpose both to the browser and the developer.</p>
+                                        </div>
+                                    </div>
+                                    <div class="note-item">
+                                        <div class="note-header">
+                                            <span class="note-timestamp">05:32</span>
+                                            <div class="note-actions">
+                                                <button class="note-action"><i class="fas fa-edit"></i></button>
+                                                <button class="note-action"><i class="fas fa-trash"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="note-content">
+                                            <p>Main semantic elements: &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;article&gt;, &lt;section&gt;, &lt;aside&gt;, &lt;footer&gt;</p>
+                                            <p>Don't confuse &lt;header&gt; with &lt;head&gt; - completely different!</p>
+                                        </div>
+                                    </div>
+                                    <div class="note-item">
+                                        <div class="note-header">
+                                            <span class="note-timestamp">10:15</span>
+                                            <div class="note-actions">
+                                                <button class="note-action"><i class="fas fa-edit"></i></button>
+                                                <button class="note-action"><i class="fas fa-trash"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="note-content">
+                                            <p>Benefits of semantic HTML:</p>
+                                            <ul>
+                                                <li>Accessibility (screen readers)</li>
+                                                <li>SEO - search engines give more weight to important elements</li>
+                                                <li>Easier to read and maintain code</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Resources Tab -->
+                        <div class="tab-pane" id="resources">
+                            <div class="resources-container">
+                                <h3>Lecture Resources</h3>
+                                <div class="resources-list">
+                                    <div class="resource-item">
+                                        <div class="resource-icon">
+                                            <i class="fas fa-file-code"></i>
+                                        </div>
+                                        <div class="resource-info">
+                                            <h4>Semantic HTML Cheat Sheet</h4>
+                                            <p>A comprehensive reference of all semantic HTML elements with examples.</p>
+                                            <span class="resource-meta">PDF • 2.4 MB</span>
+                                        </div>
+                                        <div class="resource-action">
+                                            <a href="#" class="btn btn-outline"><i class="fas fa-download"></i> Download</a>
+                                        </div>
+                                    </div>
+                                    <div class="resource-item">
+                                        <div class="resource-icon">
+                                            <i class="fas fa-file-archive"></i>
+                                        </div>
+                                        <div class="resource-info">
+                                            <h4>HTML Semantic Practice Exercise</h4>
+                                            <p>Practice exercise files to convert a non-semantic HTML page to semantic HTML.</p>
+                                            <span class="resource-meta">ZIP • 1.8 MB</span>
+                                        </div>
+                                        <div class="resource-action">
+                                            <a href="#" class="btn btn-outline"><i class="fas fa-download"></i> Download</a>
+                                        </div>
+                                    </div>
+                                    <div class="resource-item">
+                                        <div class="resource-icon">
+                                            <i class="fas fa-link"></i>
+                                        </div>
+                                        <div class="resource-info">
+                                            <h4>MDN Web Docs: HTML Elements Reference</h4>
+                                            <p>Official documentation for HTML elements including semantic elements.</p>
+                                            <span class="resource-meta">External Link</span>
+                                        </div>
+                                        <div class="resource-action">
+                                            <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i> Visit</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Transcript Tab -->
+                        <div class="tab-pane" id="transcript">
+                            <div class="transcript-container">
+                                <div class="transcript-search">
+                                    <input type="text" placeholder="Search in transcript...">
+                                    <button><i class="fas fa-search"></i></button>
+                                </div>
+                                <div class="transcript-content">
+                                    <div class="transcript-line">
+                                        <span class="timestamp">00:00</span>
+                                        <p>Hello and welcome to this lecture on HTML semantic elements.</p>
+                                    </div>
+                                    <div class="transcript-line">
+                                        <span class="timestamp">00:07</span>
+                                        <p>In this video, we're going to explore what semantic HTML is and why it's so important for creating well-structured web pages.</p>
+                                    </div>
+                                    <div class="transcript-line">
+                                        <span class="timestamp">00:18</span>
+                                        <p>Before we dive in, let's clarify what we mean by "semantic." Semantic elements are HTML elements that have meaning.</p>
+                                    </div>
+                                    <div class="transcript-line">
+                                        <span class="timestamp">00:30</span>
+                                        <p>They clearly describe their purpose and the type of content they contain, both to the browser and to developers.</p>
+                                    </div>
+                                    <div class="transcript-line">
+                                        <span class="timestamp">00:42</span>
+                                        <p>Let's contrast this with non-semantic elements like div and span. These tags don't tell us anything about their content.</p>
+                                    </div>
+                                    <div class="transcript-line">
+                                        <span class="timestamp">00:55</span>
+                                        <p>A div could contain anything - a header, a footer, an article, a navigation menu, or just a wrapper for styling purposes.</p>
+                                    </div>
+                                    <div class="transcript-line">
+                                        <span class="timestamp">01:08</span>
+                                        <p>Now let's look at some key semantic elements that were introduced in HTML5.</p>
+                                    </div>
+                                    <!-- More transcript lines would continue here -->
+                                    <div class="transcript-line">
+                                        <span class="timestamp">16:10</span>
+                                        <p>That's it for this lecture on HTML semantic elements. In the next video, we'll look at HTML best practices. Thanks for watching!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Q&A Tab -->
+                        <div class="tab-pane" id="discussion">
+                            <div class="discussion-container">
+                                <div class="discussion-header">
+                                    <h3>Questions & Answers</h3>
+                                    <button class="btn btn-primary">Ask a Question</button>
+                                </div>
+                                <div class="discussion-filter">
+                                    <div class="search-bar">
+                                        <input type="text" placeholder="Search questions...">
+                                        <button><i class="fas fa-search"></i></button>
+                                    </div>
+                                    <div class="filter-options">
+                                        <select>
+                                            <option>Most Recent</option>
+                                            <option>Most Upvoted</option>
+                                            <option>My Questions</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="discussion-list">
+                                    <div class="question-item">
+                                        <div class="question-votes">
+                                            <button class="vote-btn"><i class="fas fa-chevron-up"></i></button>
+                                            <span class="vote-count">12</span>
+                                            <button class="vote-btn"><i class="fas fa-chevron-down"></i></button>
+                                        </div>
+                                        <div class="question-content">
+                                            <div class="question-header">
+                                                <h4>Is there a limit to how many semantic elements I can use on a page?</h4>
+                                                <div class="question-meta">
+                                                    <span class="author">By Michael T.</span>
+                                                    <span class="timestamp">2 weeks ago</span>
+                                                    <span class="replies">3 replies</span>
+                                                </div>
+                                            </div>
+                                            <div class="question-body">
+                                                <p>I'm redesigning a website and want to use semantic HTML properly. Is there any limit to how many semantic elements I should use, or any guidelines about nesting them?</p>
+                                            </div>
+                                            <div class="question-footer">
+                                                <button class="btn btn-sm btn-outline">Show Replies</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="question-item">
+                                        <div class="question-votes">
+                                            <button class="vote-btn"><i class="fas fa-chevron-up"></i></button>
+                                            <span class="vote-count">8</span>
+                                            <button class="vote-btn"><i class="fas fa-chevron-down"></i></button>
+                                        </div>
+                                        <div class="question-content">
+                                            <div class="question-header">
+                                                <h4>When should I use &lt;article&gt; vs &lt;section&gt;?</h4>
+                                                <div class="question-meta">
+                                                    <span class="author">By Sarah W.</span>
+                                                    <span class="timestamp">1 month ago</span>
+                                                    <span class="replies">5 replies</span>
+                                                </div>
+                                            </div>
+                                            <div class="question-body">
+                                                <p>I'm confused about when to use &lt;article&gt; and when to use &lt;section&gt;. Could you explain the difference and provide examples of when to use each?</p>
+                                            </div>
+                                            <div class="question-footer">
+                                                <button class="btn btn-sm btn-outline">Show Replies</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
