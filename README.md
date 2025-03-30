@@ -1,10 +1,16 @@
 # E-LEARNING-PLATFORM-UI
 *COMPANY*: CODTECH IT SOLUTIONS
+
 *NAME*: AMIT KUMAR
+
 *INTERN ID*: CT04WWL
+
 *DOMAIN*: FRONTEND WEB DEVELOPMENT
-*DURATION*: 4 WEEKS 
+
+*DURATION*: 4 WEEKS
+
 *MENTOR*: NEELA SANTOSH
+
 ***********************************************************************************************************************************************
 
 
